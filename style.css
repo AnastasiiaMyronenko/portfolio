@@ -35,7 +35,6 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
 }
 
@@ -85,4 +84,19 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
 }
